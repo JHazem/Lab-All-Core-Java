@@ -1,4 +1,4 @@
-package com.perscholas;
+package genericClass;
 
 /*
  A class can have more than one type parameter. 
