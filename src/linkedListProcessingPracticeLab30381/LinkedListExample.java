@@ -1,4 +1,4 @@
-package linkedListProcessingPractice;
+package linkedListProcessingPracticeLab30381;
 
 import java.util.Iterator;
 import java.util.LinkedList;

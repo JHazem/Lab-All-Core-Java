@@ -1,4 +1,4 @@
-package genericClass;
+package genericClassLab30371;
 
 
 /*

@@ -1,4 +1,4 @@
-package genericClass;
+package genericClassLab30371;
 
 /*
  A class can have more than one type parameter. 
