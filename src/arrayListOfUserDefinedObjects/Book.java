@@ -90,8 +90,7 @@ public class Book {
 	     }
 
 	  }
-	  
-	  
+	   
 	  /*
 	   Step 3: Create a new Class named “showData,” and add the code below in the showData class.
 	   */
@@ -108,6 +107,5 @@ public class Book {
 		     }
 		  }
 		}
-		  
-	  
+		   
 }
