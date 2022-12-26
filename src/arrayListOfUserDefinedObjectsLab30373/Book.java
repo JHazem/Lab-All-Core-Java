@@ -16,23 +16,24 @@ import java.util.ArrayList;
  */
 public class Book {
 
-	private  int number;
+	
+	  private  int number;
 	  private  String name;
 	  private String author;
 	  private  String category;
+	  
 	  // Constructor with arguments
-	  public Book(int number, String name, String author, String category)
-	  {
+	  public Book(int number, String name, String author, String category){
 	     this.name = name;
 	     this.category = category;
 	     this.author = author;
 	     this.number = number;
 	  }
+	  
 	  // Constructor without arguments
-	  public Book()
-	  {
-
+	  public Book(){ 
 	  }
+	  
 	  public int getNumber() {
 	     return number;
 	  }
@@ -58,13 +59,13 @@ public class Book {
 	     this.category = category;
 	  }
 
+}
 	  /*
 	   Step 2: Create a new Class named “AddDataToArrayList,” 
 	   and add the code below in the AddDataToArrayList class.
 	   */
-	 
-
-	  public class AddDataToArrayList {
+	  
+	   class AddDataToArrayList {
 	    public  ArrayList<Book> bookdetails() {
 	        //User-defined class objects in Java ArrayList
 	      
@@ -88,15 +89,15 @@ public class Book {
 	       list.add(b5);
 	       return list;
 	     }
-
 	  }
 	   
 	  /*
 	   Step 3: Create a new Class named “showData,” and add the code below in the showData class.
 	   */
 	  
-	  public class showData {
-		  public static void main(String[] args) {
+	   class showData {
+			public static void main(String[] args) {
+				
 		  // instantioation to class AddDataToArrayList   
 		  AddDataToArrayList b = new AddDataToArrayList();
 		  ArrayList<Book> mybooklist = b.bookdetails();
@@ -104,8 +105,6 @@ public class Book {
 		     // ---- invoking getter method for geting Data---------       
 				  System.out.println(showValue.getNumber() + " " + showValue.getName1() +" "+ 
 				     showValue.getCategory() +" "+ showValue.getAuthor());
-		     }
-		  }
+		         }
 		}
-		   
-}
+	   }
